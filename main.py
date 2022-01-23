@@ -29,6 +29,16 @@ def eventLoop():
                 player.dir = (-1,0)       
             if event.key == pygame.K_d:
                 player.dir = (1,0)
+
+            
+            if event.key == pygame.K_UP:
+                player.dir = (0,-1)               
+            if event.key == pygame.K_DOWN:
+                player.dir = (0,1)                
+            if event.key == pygame.K_LEFT:
+                player.dir = (-1,0)       
+            if event.key == pygame.K_RIGHT:
+                player.dir = (1,0)
         
 
 
